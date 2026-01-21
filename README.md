@@ -3,80 +3,105 @@
 A full-stack music and podcast streaming web application inspired by Spotify Lite.
 Melody allows users to stream audio, manage playlists, and enjoy a modern digital media player experience with a clean, responsive UI.
 
-🚀 Live Demo: https://melody-music-app-chi.vercel.app/
+🚀 Live Demo: [https://melody-music-app-chi.vercel.app/](https://melody-music-app-chi.vercel.app/)
 
 📌 Project Objective
 
 The goal of this project is to design and develop a real-world full-stack web application that demonstrates:
 
-Audio streaming using HTML5 Audio API
-
-Modern frontend architecture with React
-
-Secure authentication and backend services
-
-Scalable database design
-
-Cloud deployment
+* Audio streaming using HTML5 Audio API
+* Modern frontend architecture with React
+* Secure authentication and backend services
+* Scalable database design
+* Cloud deployment
 
 This project focuses on building industry-relevant skills in frontend development, backend integration, and system design.
 
-✨ Features
+---
+ ✨ Features
+
 👤 User Features
 
-🔐 User authentication (Sign up / Login)
+* 🔐 User authentication (Sign up / Login)
+* 🎧 Stream music and podcasts
+* 🔎 Browse and search audio content
+* ❤️ Like / favorite tracks
+* 🎵 Create and manage playlists
+* ⏯ Resume last played track
+* 📱 Fully responsive UI
 
-🎧 Stream music and podcasts
+### 🛠 Admin Features (Basic)
 
-🔎 Browse and search audio content
+* ⬆ Upload audio files
+* 📝 Add metadata (title, artist, category, cover image)
+* 📂 Manage tracks and playlists
 
-❤️ Like / favorite tracks
+---
 
-🎵 Create and manage playlists
+ 🧰 Tech Stack
 
-⏯ Resume last played track
+ Frontend
 
-📱 Fully responsive UI
+* React.js
+* Tailwind CSS
+* React Router
+* HTML5 Audio API
 
-🛠 Admin Features (Basic)
+ Backend & Services
 
-⬆ Upload audio files
+* Supabase (PostgreSQL Database, Auth, Storage)
+* Node.js (optional API layer)
 
-📝 Add metadata (title, artist, category, cover image)
+### Deployment
 
-📂 Manage tracks and playlists
-
-🧰 Tech Stack
-Frontend
-
-React.js
-
-Tailwind CSS
-
-React Router
-
-HTML5 Audio API
-
-Backend & Services
-
-Supabase (PostgreSQL Database, Auth, Storage)
-
-Node.js (optional API layer)
-
-Deployment
-
-Vercel (Frontend Hosting)
+* Vercel (Frontend Hosting)
 
 🗄 Database Design (High Level)
 
-users
+* users
+* tracks
+* podcasts
+* playlists
+* playlist_tracks
+* recently_played
+ 📂 Project Structure
 
-tracks
+```
+frontend/
+│
+├── src/
+│   ├── assets/             # Images & icons
+│   ├── components/         # Reusable UI components
+│   │   ├── Player/
+│   │   ├── MusicCard.jsx
+│   │   └── Navbar.jsx
+│   ├── pages/              # Application pages
+│   ├── context/            # Global state management
+│   ├── services/           # API calls
+│   ├── hooks/              # Custom hooks
+│   ├── utils/              # Helper functions
+│   └── App.jsx
+│
+backend/ (optional)
+│
+├── src/
+│   ├── routes/
+│   ├── controllers/
+│   ├── services/
+│   └── config/
+```
 
-podcasts
+🔮 Future Enhancements
 
-playlists
+* 🎚 Audio waveform visualization
+* 🤖 Recommendation system
+* 📊 Analytics dashboard
+* 📥 Offline support
+* 🌙 Dark mode
 
-playlist_tracks
+👨‍💻 Author
 
-recently_played
+Nyasa
+Computer Science / Web Developer
+GitHub: [https://github.com/Nyasa139](https://github.com/Nyasa139)
+
